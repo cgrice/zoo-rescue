@@ -1,0 +1,116 @@
+body {
+    font-family: VT323, monospace;
+    font-size: 20px;
+    background-color: #010101;
+}
+
+.status {
+    width: 800px;
+    text-align: left;
+    color: #017101;
+    margin: 0px auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    width: 800px;
+    padding: 10px 20px;
+    margin: 0px auto;
+    background-color: black;
+    color: #00ff00;
+    border: 2px solid #017101;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: VT323, sans;
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.actions {
+    margin: 50px auto;
+    text-align: center;
+}
+
+a.button, input.button {
+    background-color: transparent;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    font-size: 30px;
+    margin: 20px 0px;
+    padding: 10px;
+    font-family: VT323, monospace;
+}
+
+.question {
+    font-size: 30px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+    border: 1px solid #00ff00;
+    background-color: transparent;
+    color: #00ff00;
+    font-family: VT323, monospace;
+}
+
+.alert {
+    animation: blinker 1s linear infinite;
+
+    text-align: center;
+    font-size: 30px;
+}
+
+.info {
+    color: white;
+    animation: blinker 1s linear infinite;
+}
+
+.success {
+    color: #00ff00;
+}
+
+.error {
+    color: red;
+}
+
+@keyframes blinker {
+50% {
+    opacity: 0;
+}
+}
+
+.question.reversed {
+    /* -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1); */
+
+}
+
+.main pre {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    height: 2px;
+    background-color: #00ff0069;
+    margin: 50px 0;
+}
