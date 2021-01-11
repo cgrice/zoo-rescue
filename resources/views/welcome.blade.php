@@ -1,13 +1,30 @@
 @extends('layout')
 
 @section('main')
-    <h2>Welcome to ZOOCODE</h2>
+    <h2>Welcome to ZOO RESCUE!</h2>
     <p>Beryl the Terrible has kidnapped 5 animals from the zoo! You have managed
     to sneak into her office at the zoo and have found her computer.</p>
 
     <p>Can you crack the codes she's left, rescue the animals, and save the zoo?</p>
 
-    <pre style="width: 480px">
+    <pre class="art-mini art-small art-medium" style="width: 230px">
+    /------------\
+   |  MWA HA HAA! |
+    \----.-------/
+         |
+         |
+ /////////////\\\
+((((((((((((((\\\\
+))) ~~  \ / ~~  (((
+((( (o)     (o) )))
+)))     <       (((
+((( '\______/`  )))
+)))\___________/(((
+       _) (_
+      / \_/ \
+</pre>
+
+    <pre class="art-large" style="width: 480px">
  /////////////\\\
 ((((((((((((((\\\\
 ))) ~~  \ / ~~  (((     /------------\

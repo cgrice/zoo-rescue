@@ -21,7 +21,7 @@
     <body class="antialiased">
         @yield('status')
         <div class="main">
-            <h1>Code Breaker</h1>
+            <h1>Zoo Rescue</h1>
             @yield('main')
         </div>
     </body>

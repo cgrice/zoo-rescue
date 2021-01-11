@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Codes\AnagramCode;
 use Illuminate\Http\Request;
 use App\Codes\Code;
+use App\Codes\DummyCode;
 use App\Codes\NoVowelsCode;
 use App\Codes\NumberCode;
 use App\Codes\ReversedCode;
 use App\Codes\SandwichCode;
+use App\Codes\TrioCode;
 
 class ChallengeController extends Controller
 {
@@ -18,11 +21,11 @@ class ChallengeController extends Controller
     const LEVELS = [
         1 => [
             'id' => '48a7f784-22bd-44c3-8b93-f8474924110f',
-            'code' => NumberCode::class,
+            'code' => ReversedCode::class,
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'HELLO'
+                    'answer' => 'HELLO EMILY'
                 ],
                 // 2 => [
                 //     'answer' => 'THE MONEY IS IN THE FRIDGE'
@@ -37,21 +40,21 @@ class ChallengeController extends Controller
         ],
         2 => [
             'id' => 'dca69c0d-0e9e-4ca7-b355-fa3cbad5b733',
-            'code' => ReversedCode::class,
+            'code' => NumberCode::class,
             'cssClass' => 'reversed',
             'challenges' => [
                 1 => [
-                    'answer' => 'THE WIGS ARE IN THE HOLE IN THE GUITAR'
+                    'answer' => 'HELLO EMILY'
                 ],
-                2 => [
-                    'answer' => 'THE MEETING PLACE IS THE WEST DOCKS'
-                ],
-                3 => [
-                    'answer' => 'FOLLOW WOMAN IN HAT'
-                ],
-                4 => [
-                    'answer' => 'A MEETING AT MIDNIGHT ON WEDNESDAY'
-                ]
+                // 2 => [
+                //     'answer' => 'THE MEETING PLACE IS THE WEST DOCKS'
+                // ],
+                // 3 => [
+                //     'answer' => 'FOLLOW WOMAN IN HAT'
+                // ],
+                // 4 => [
+                //     'answer' => 'A MEETING AT MIDNIGHT ON WEDNESDAY'
+                // ]
             ]
         ],
         3 => [
@@ -60,46 +63,47 @@ class ChallengeController extends Controller
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'NEW TEAM NAME IS 356'
+                    'answer' => 'HELLO EMILY'
                 ],
-                2 => [
-                    'answer' => 'PENGUIN BUTLER IS CAPTURED'
-                ],
-                3 => [
-                    'answer' => 'ENEMY SPIES ARE IN THE AREA'
-                ],
-                4 => [
-                    'answer' => 'MEET ME AT THE BANK BECAUSE I FOUND THE MONEY'
-                ]
+                // 2 => [
+                //     'answer' => 'PENGUIN BUTLER IS CAPTURED'
+                // ],
+                // 3 => [
+                //     'answer' => 'ENEMY SPIES ARE IN THE AREA'
+                // ],
+                // 4 => [
+                //     'answer' => 'MEET ME AT THE BANK BECAUSE I FOUND THE MONEY'
+                // ]
             ]
         ],
         4 => [
             'id' => '4fe285cb-37fa-4366-82ca-4de48ad690e2',
-            'code' => NoVowelsCode::class,
+            'code' => TrioCode::class,
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'NEW TEAM NAME IS 356'
+                    'answer' => 'HELLO EMILY'
                 ],
             ],
         ],
         5 => [
             'id' => '99c6ed1c-f5d1-4bbe-b3bc-7596274becf7',
-            'code' => SandwichCode::class,
+            'code' => AnagramCode::class,
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'NEW TEAM NAME IS 356'
+                    'answer' => 'HELLO EMILY'
                 ],
             ],
         ],
         6 => [
             'id' => '00c78a23-5187-44c0-9591-915c387585bd',
-            'code' => SandwichCode::class,
+            'code' => DummyCode::class,
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'FLUSH THE TOILET THREE TIMES TO OPEN THE SECRET PASSAGEWAY TO MY HQ'
+                    // 'answer' => 'FLUSH THE TOILET THREE TIMES TO OPEN THE SECRET PASSAGEWAY TO MY HQ'
+                    'answer' => 'HELLO EMILY',
                 ],
             ],
         ],

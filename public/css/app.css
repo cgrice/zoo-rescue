@@ -5,16 +5,16 @@ body {
 }
 
 .status {
-    width: 800px;
+    width: 90%;
     text-align: left;
     color: #017101;
     margin: 0px auto;
-    margin-top: 40px;
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
 }
 .main {
-    width: 800px;
+    width: 90%;
     padding: 10px 20px;
     margin: 0px auto;
     background-color: black;
@@ -29,7 +29,7 @@ h1, h2 {
 
 h1 {
     font-family: VT323, sans;
-    font-size: 80px;
+    font-size: 60px;
     letter-spacing: 4px;
 }
 
@@ -105,8 +105,16 @@ input[type="text"] {
 }
 
 .main pre {
-    display: block;
+    display: none;
     margin: 0 auto;
+}
+
+.main pre.art-small {
+    display: block;
+}
+
+.main pre.art-mini {
+    display: block;
 }
 
 hr {
@@ -114,3 +122,72 @@ hr {
     background-color: #00ff0069;
     margin: 50px 0;
 }
+
+@media only screen and (min-width: 320px) {
+    .main, .status {
+        width: 90%;
+    }
+
+    .main pre.art-small {
+        display: none;
+    }
+
+    .main pre.art-mini {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .main, .status {
+        width: 390px;
+    }
+
+    .main pre.art-mini {
+        display: none;
+    }
+
+    .main pre.art-small {
+        display: none;
+    }
+
+    .main pre.art-medium {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main, .status {
+        width: 740px;
+    }
+
+    .status {
+        margin-top: px;
+    }
+
+    .main pre.art-small {
+        display: none;
+    }
+
+    .main pre.art-medium {
+        display: none;
+    }
+
+    .main pre.art-large {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .main, .status {
+        width: 800px;
+    }
+
+    .status {
+        margin-top: 20px;
+    }
+}
+
+@-ms-viewport{
+    width: device-width;
+}
+

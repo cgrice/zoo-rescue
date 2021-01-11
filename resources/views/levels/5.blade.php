@@ -1,4 +1,12 @@
-<pre>
+<pre class="art-mini" style="width: 160px;">
+   .~ ~ ~.
+ (  o,,,o  )
+(   ). .(   )
+ \  { v }  /
+   ~ 'U' ~
+</pre>
+
+<pre class="art-small art-medium art-large" style="width: 300px;">
              ,%%%%%%%%,
            ,%%/\%%%%/\%%
           ,%%%\c "" J/%%%

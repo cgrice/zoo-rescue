@@ -5,7 +5,24 @@
 
 <p>You caught Beryl! This zoo is now safe forever, and the animals are happy!</p>
 
-    <pre style="width: 480px">
+<pre class="art-mini art-small art-medium" style="width: 230px">
+    /-----------\
+   |  NOOOOOOOO! |
+    \----.------/
+         |
+         |
+ /////////////\\\
+((((((((((((((\\\\
+))) ~~      ~~  (((
+((( (o)     (o) )))
+))) '    <   '  (((
+((( '  ~~~~~~   )))
+)))\___________/(((
+       _) (_
+      / \_/ \
+</pre>
+
+<pre class="art-large" style="width: 480px">
  /////////////\\\
 ((((((((((((((\\\\
 ))) ~~      ~~  (((     /----------\

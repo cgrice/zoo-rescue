@@ -5,8 +5,6 @@
 <p class="alert {{ Session::get('alert-class', 'info') }}">{{ Session::get('message') }}</p>
 @endif
 
-<h2>Break this code!</h2>
-
 @include('levels/' . $level)
 
 <div class="question {{ $cssClass }}">{{ $question }}</div>
