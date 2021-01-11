@@ -5,6 +5,8 @@ namespace App\Codes;
 class SandwichCode implements Code {
     public function encode(string $plaintext): string {
         $plaintext = str_replace(' ', '', $plaintext);
+        $plaintext = strtoupper($plaintext);
+
         $index = ceil(strlen($plaintext) / 2);
         $firstHalf = substr($plaintext, 0, $index);
         $secondHalf = substr($plaintext, $index, strlen($plaintext));
