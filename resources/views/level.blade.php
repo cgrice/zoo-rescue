@@ -20,7 +20,7 @@
 
 @section('status')
 <div class="status">
-    <div class="level">LEVEL: {{ $level }} / 3</div>
+    <div class="level">ANIMALS: {{ $level - 1 }} / 5</div>
     <div class="result">
          @if(Session::has('result'))
             @if(Session::get('result'))

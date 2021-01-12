@@ -1,3 +1,9 @@
+<pre class="art-mini" style="width: 180px;">
+ _ " _
+(_\|/_)  _ " _
+ (/|\)  (_\|/_)
+         (/|\)
+</pre>
 <pre class="art-small art-medium" style="width: 380px;">
                       _ " _
  _ " _               (_\|/_)

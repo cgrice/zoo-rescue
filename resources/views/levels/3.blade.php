@@ -3,8 +3,8 @@
    ,_\\_\\\//|,
     \/; `:|( / \,
     /.';_`) `\////,
-   |:'/a/ ':..:\/  /,
-  /:' ` ':. '::'`\///,
+   |: /o/ ':..:\/  /,
+  /:'    :. '::'`\///,
  /_.:'`': ':/:' .:\/  \
 /  ',:'; :_/:' .:' \ //,
 |O)  \//` \:' .::' ;:\//,
@@ -14,8 +14,21 @@
         |.::'  .:'  .:'  :'`
 </pre>
 
+<pre class="art-mini" style="width: 240px;">
+  \\/),
+ ,'.' /,
+(_)- / /,
+   /\_/ |__..--,  *
+  (\___/\ \ \ / ).'
+   \____/ / (_ //
+    \\_ ,'--'\_(
+    )_)_/ )_/ )_)
+   (_(_.'(_.'(_.'
+</pre>
 
-<p>For her second species of kidnapping, Beryl went after Clare the Chameleon.
-Though, it did take her a while to find her, as she's <b>very</b> good at hiding.</p>
 
-<p>Can you break the secret password and discover Clare's hiding place?</p>
+<p>Next on the list is Deborah the Zebra. You'd think it would be quite hard
+    to hide a zebra, but Beryl has managed it!
+</p>
+
+<p>Can you find Deborah by breaking the code?</p>

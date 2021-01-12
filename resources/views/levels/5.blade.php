@@ -21,3 +21,10 @@
      \         /_ | |__
      (___________)))))))
 </pre>
+
+<p>Finally, only Leo the Lion is left. I'm quite surprised Beryl the Terrible managed to get hold of him.
+    He's quite scary when he's grumpy! She must be very brave, or just very terrible. He can't have
+    gone far!
+</p>
+
+<p>Where's Leo? What's the last secret hiding place?</p>

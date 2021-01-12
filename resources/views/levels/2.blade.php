@@ -1,8 +1,8 @@
-<pre class="art-mini art-small art-medium" style="width: 100px">
-  ____
-/o    ~-.
-\/ __ .- |
- // // @/
+<pre class="art-mini art-small art-medium" style="width: 200px">
+     ____
+   /o    ~-.
+   \/ __ .- |
+===//=//==@/=======
 </pre>
 
 <pre class="art-large" style="width: 660px;">

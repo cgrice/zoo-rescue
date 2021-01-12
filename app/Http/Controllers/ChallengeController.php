@@ -25,7 +25,7 @@ class ChallengeController extends Controller
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'HELLO EMILY'
+                    'answer' => 'CHECK CUPBOARD IN CAFE'
                 ],
                 // 2 => [
                 //     'answer' => 'THE MONEY IS IN THE FRIDGE'
@@ -44,7 +44,7 @@ class ChallengeController extends Controller
             'cssClass' => 'reversed',
             'challenges' => [
                 1 => [
-                    'answer' => 'HELLO EMILY'
+                    'answer' => 'CAMOUFLAGED ON TOP OF THE GIFT SHOP'
                 ],
                 // 2 => [
                 //     'answer' => 'THE MEETING PLACE IS THE WEST DOCKS'
@@ -63,7 +63,7 @@ class ChallengeController extends Controller
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'HELLO EMILY'
+                    'answer' => 'IN FIELD WITH HORSES PAINTED BROWN'
                 ],
                 // 2 => [
                 //     'answer' => 'PENGUIN BUTLER IS CAPTURED'
@@ -78,32 +78,31 @@ class ChallengeController extends Controller
         ],
         4 => [
             'id' => '4fe285cb-37fa-4366-82ca-4de48ad690e2',
-            'code' => TrioCode::class,
+            'code' => AnagramCode::class,
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'HELLO EMILY'
+                    'answer' => 'CHECKING TICKETS AT THE CAR PARK'
                 ],
             ],
         ],
         5 => [
             'id' => '99c6ed1c-f5d1-4bbe-b3bc-7596274becf7',
-            'code' => AnagramCode::class,
+            'code' => DummyCode::class,
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'HELLO EMILY'
+                    'answer' => 'LOCKED IN THE MANAGERS OFFICE'
                 ],
             ],
         ],
         6 => [
             'id' => '00c78a23-5187-44c0-9591-915c387585bd',
-            'code' => DummyCode::class,
+            'code' => TrioCode::class,
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    // 'answer' => 'FLUSH THE TOILET THREE TIMES TO OPEN THE SECRET PASSAGEWAY TO MY HQ'
-                    'answer' => 'HELLO EMILY',
+                    'answer' => 'FLUSH LEFT TOILET THREE TIMES TO SECRET DOOR'
                 ],
             ],
         ],
