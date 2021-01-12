@@ -102,7 +102,7 @@ class ChallengeController extends Controller
             'cssClass' => '',
             'challenges' => [
                 1 => [
-                    'answer' => 'FLUSH LEFT TOILET THREE TIMES TO SECRET DOOR'
+                    'answer' => 'FLUSH LEFT TOILET THREE TIMES TO OPEN SECRET DOOR'
                 ],
             ],
         ],
