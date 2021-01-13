@@ -5,6 +5,9 @@
 
     RewriteEngine On
 
+    RewriteCond %{HTTP_HOST} ^zoocode.chrisgrice.com$
+    RewriteRule (.*)$ https://zoo-rescue.herokuapp.com/$1 [R=301,L]
+
     # If we receive a forwarded http request from a proxy...
     RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
 
