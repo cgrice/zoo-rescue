@@ -22,6 +22,7 @@ class ChallengeController extends Controller
         1 => [
             'id' => '48a7f784-22bd-44c3-8b93-f8474924110f',
             'code' => ReversedCode::class,
+            'hint' => 'Think backwards!',
             'cssClass' => '',
             'challenges' => [
                 1 => [
@@ -42,6 +43,7 @@ class ChallengeController extends Controller
             'id' => 'dca69c0d-0e9e-4ca7-b355-fa3cbad5b733',
             'code' => NumberCode::class,
             'cssClass' => 'reversed',
+            'hint' => 'ABC 1 2 3',
             'challenges' => [
                 1 => [
                     'answer' => 'CAMOUFLAGED ON TOP OF THE GIFT SHOP'
@@ -61,6 +63,7 @@ class ChallengeController extends Controller
             'id' => 'cd767303-93b3-456d-bc64-272b9e18359c',
             'code' => SandwichCode::class,
             'cssClass' => '',
+            'hint' => 'Skip a letter!',
             'challenges' => [
                 1 => [
                     'answer' => 'IN FIELD WITH HORSES PAINTED BROWN'
@@ -80,6 +83,7 @@ class ChallengeController extends Controller
             'id' => '4fe285cb-37fa-4366-82ca-4de48ad690e2',
             'code' => AnagramCode::class,
             'cssClass' => '',
+            'hint' => 'Mixed up words',
             'challenges' => [
                 1 => [
                     'answer' => 'CHECKING TICKETS AT THE CAR PARK'
@@ -90,6 +94,7 @@ class ChallengeController extends Controller
             'id' => '99c6ed1c-f5d1-4bbe-b3bc-7596274becf7',
             'code' => DummyCode::class,
             'cssClass' => '',
+            'hint' => 'Backwards, remove extra letters',
             'challenges' => [
                 1 => [
                     'answer' => 'LOCKED IN THE MANAGERS OFFICE'
@@ -100,6 +105,7 @@ class ChallengeController extends Controller
             'id' => '00c78a23-5187-44c0-9591-915c387585bd',
             'code' => TrioCode::class,
             'cssClass' => '',
+            'hint' => 'Swap letters 1 and 2',
             'challenges' => [
                 1 => [
                     'answer' => 'FLUSH LEFT TOILET THREE TIMES TO OPEN SECRET DOOR'
@@ -131,12 +137,14 @@ class ChallengeController extends Controller
         $answer = $gameLevel['challenges'][$challenge]['answer'];
         $question = $this->encodeQuestion($code, $answer);
         $cssClass = $gameLevel['cssClass'];
+        $hint = $gameLevel['hint'];
 
         return view('level', [
             'cssClass' => $cssClass,
             'level' => $level,
             'challenge' => $challenge,
-            'question' => $question
+            'question' => $question,
+            'hint' => $hint
         ]);
     }
 

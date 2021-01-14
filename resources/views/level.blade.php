@@ -16,6 +16,11 @@
 <input type="text" name="solution" autocomplete="off" />
 <input class="button" type="submit" value="Submit" />
 </form>
+
+<div id="hint-trigger">Get a hint?</div>
+<div id="hint"><span class="hint-text">{{ $hint }}</span></div>
+
+
 @endsection
 
 @section('status')

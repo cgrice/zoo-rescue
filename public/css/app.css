@@ -130,6 +130,41 @@ hr {
     margin: 50px 0;
 }
 
+#hint-trigger {
+    color: #009900;
+    margin-left: 3px;
+}
+
+#hint-trigger:hover {
+    cursor: pointer;
+}
+
+#hint {
+    display: block;
+    visibility: hidden;
+    color: #bdbdbd;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+#hint.visible .hint-text {
+    visibility: visible;
+    display: block;
+  	overflow: hidden;
+ 	animation: typing 5s steps(200, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%
+    }
+}
+
 @media only screen and (min-width: 320px) {
     .main, .status {
         width: 90%;
