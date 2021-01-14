@@ -7,6 +7,10 @@
 
 @include('levels/' . $level)
 
+<script type="text/javascript">
+GAME_LEVEL = {{$level}};
+</script>
+
 <div class="question {{ $cssClass }}">{{ $question }}</div>
 
 <form method="POST" action="/level/{{ $level }}/solve">

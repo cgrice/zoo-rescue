@@ -2,10 +2,12 @@ const toggleHint = function() {
     const hint = document.getElementById("hint");
     const hintTrigger = document.getElementById("hint-trigger");
 
-    console.log(hint);
-
     if(hint) {
         if (hint.className !== "visible") {
+            gtag('event', 'hint', {
+                'level': GAME_LEVEL
+            });
+
             hintTrigger.innerHTML = "Hide hint";
             hint.className += "visible";
             return;
