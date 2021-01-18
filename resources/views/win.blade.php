@@ -5,7 +5,7 @@
 
 <p>You caught Beryl! This zoo is now safe forever, and the animals are happy!</p>
 
-<pre class="art-mini art-small art-medium" style="width: 230px">
+<pre role="img" aria-labelledby="art_desc" class="art-mini art-small art-medium" style="width: 230px">
     /-----------\
    |  NOOOOOOOO! |
     \----.------/
@@ -22,7 +22,7 @@
       / \_/ \
 </pre>
 
-<pre class="art-large" style="width: 480px">
+<pre role="img" aria-labelledby="art_desc" class="art-large" style="width: 480px">
  /////////////\\\
 ((((((((((((((\\\\
 ))) ~~      ~~  (((     /----------\
@@ -33,6 +33,7 @@
        _) (_
       / \_/ \
 </pre>
+<div id="art_desc" aria-hidden="true">A picture of Beryl The Terrible. She's crying, and saying noooo!</div>
 
 <hr/>
 

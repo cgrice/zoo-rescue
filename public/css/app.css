@@ -73,6 +73,10 @@ a.button, input.button {
     color: white;
 }
 
+#art_desc {
+    display: none;
+}
+
 input[type="text"] {
     padding: 10px;
     font-size: 30px;

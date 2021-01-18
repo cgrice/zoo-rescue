@@ -7,7 +7,7 @@
 
     <p>Can you crack the codes she's left, rescue the animals, and save the zoo?</p>
 
-    <pre class="art-mini art-small art-medium" style="width: 230px">
+    <pre role="img" aria-labelledby="art_desc" class="art-mini art-small art-medium" style="width: 230px">
     /------------\
    |  MWA HA HAA! |
     \----.-------/
@@ -24,7 +24,7 @@
       / \_/ \
 </pre>
 
-    <pre class="art-large" style="width: 480px">
+    <pre role="img" aria-labelledby="art_desc" class="art-large" style="width: 480px">
  /////////////\\\
 ((((((((((((((\\\\
 ))) ~~  \ / ~~  (((     /------------\
@@ -35,6 +35,8 @@
        _) (_
       / \_/ \
 </pre>
+
+    <div id="art_desc" aria-hidden="true">A picture of Beryl The Terrible, grinning, and laughing her evil laugh.</div>
 
     <div class="actions">
         <a class="button" href="/level/1">Start the game</a>
